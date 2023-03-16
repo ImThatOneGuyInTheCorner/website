@@ -64,3 +64,40 @@ body {
         display: none;
     }
 }
+
+nav i {
+    /* flex: flex-start; */
+    display: flex;
+    z-index: 2;
+    top: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    position: fixed;
+    color: #2c6bf2;
+    align-items: center;
+    margin: 20px;
+}
+
+nav a {
+    /* flex: flex-start; */
+    text-decoration: none;
+    display: flex;
+    z-index: 2;
+    top: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    position: fixed;
+    color: #2c6bf2;
+    align-items: center;
+    margin: 20px;
+    left: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.home {
+    left: 0px;
+    top: 7px;
+}
