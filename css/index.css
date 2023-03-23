@@ -73,8 +73,34 @@ body {
 }
 
 @media (max-width: 1050px) {
+    body {
+        height: 2100px;
+    }
+
     .rect {
-        width: 680
+        width: 680px;
+        height: 90px;
+    }
+
+    .container {
+        width: 740px;
+        height: 1700px;
+    }
+}
+
+@media (max-width: 775px) {
+    body {
+        height: 2100px;
+    }
+
+    .rect {
+        width: 680px;
+        height: 90px;
+    }
+
+    .container {
+        width: 400px;
+        height: 1700px;
     }
 }
 
