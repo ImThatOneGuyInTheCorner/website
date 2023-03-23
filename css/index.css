@@ -13,6 +13,7 @@ body {
     margin: 0;
     overflow-X: hidden;
     overflow-Y: scroll;
+    flex-wrap: wrap;
 }
 
 .rect {
