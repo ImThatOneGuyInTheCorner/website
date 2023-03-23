@@ -94,12 +94,12 @@ body {
     }
 
     .rect {
-        width: 680px;
+        width: 420px;
         height: 90px;
     }
 
     .container {
-        width: 400px;
+        width: 480px;
         height: 1700px;
     }
 }
