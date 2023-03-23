@@ -72,9 +72,9 @@ body {
     background-color: #dde0e4;
 }
 
-@media (max-width: 580px) {
-    body {
-        flex-direction: column;
+@media (max-width: 1050px) {
+    .rect {
+        width: 680
     }
 }
 
