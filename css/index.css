@@ -72,6 +72,12 @@ body {
     background-color: #dde0e4;
 }
 
+@media (max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
+
 nav i {
     /* flex: flex-start; */
     display: flex;
