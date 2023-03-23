@@ -18,7 +18,7 @@ body {
     border: 0px;
     background-color: #edeff1;
     height: 80px;
-    width: 93.5%;
+    width: 55vw;
     font-size: 19px;
     font-family: 'Tilt Neon', cursive;
     display: flex;
@@ -35,9 +35,9 @@ body {
 .container {
     background-color: #9797a5;
     width: 60vw;
-    height: 640px;
+    height: 1000px;
     position: relative;
-    top: 130px;
+    top: 300px;
     border-radius: 50px;
 }
 
