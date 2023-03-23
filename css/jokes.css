@@ -10,10 +10,24 @@ body {
 }
 
 .container {
+    display: flex;
     background-color: #f1f1f1;
     height: 75vh;
     width: 75vw;
-    border-radius: 10px;
+    border-radius: 20px;
+
+}
+
+.btn {
+    display: flex;
+    font-size: 27px;
+    height: 80px;
+    width: 200px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #c3d5f1;
+    color: #f1f1f1;
+    justify-content: center;
 }
 
 nav i {
