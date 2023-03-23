@@ -7,7 +7,23 @@ body {
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
 
+.square {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    background-color: #1d1d1d;
+    transition: 2s ease;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
 
 nav i {
     /* flex: flex-start; */
@@ -17,7 +33,7 @@ nav i {
     text-decoration: none;
     font-size: 20px;
     position: fixed;
-    color: #547eab;
+    color: #f1f1f1;
     align-items: center;
     margin: 20px;
 }
@@ -31,7 +47,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     position: fixed;
-    color: #547eab;
+    color: #f1f1f1;
     align-items: center;
     margin: 20px;
     left: 25px;
