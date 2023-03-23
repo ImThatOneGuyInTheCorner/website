@@ -27,6 +27,7 @@ body {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    text-align: center;
     padding: 5px;
     margin: 30px;
     border-radius: 15px;
