@@ -10,5 +10,6 @@ for (let i = 0; i < SQUARES; i++) {
 }
 
 function setColor(square) {
-    square.style.background = 
+    const color = colors[Math.floor(Math.random() * 5)]
+    square.style.background = color
 }
