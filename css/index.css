@@ -18,7 +18,7 @@ body {
     border: 0px;
     background-color: #edeff1;
     height: 80px;
-    width: 55vw;
+    width: 900px;
     font-size: 19px;
     font-family: 'Tilt Neon', cursive;
     display: flex;
@@ -34,11 +34,13 @@ body {
 
 .container {
     background-color: #9797a5;
-    width: 60vw;
+    width: 1000px;
     height: 1500px;
     position: relative;
     top: 90px;
     border-radius: 50px;
+    align-content: center;
+    display: flex;
 }
 
 .header {
