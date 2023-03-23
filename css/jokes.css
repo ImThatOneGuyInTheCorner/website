@@ -3,8 +3,8 @@ body {
     background-color: #c3d5f1;
     display: flex;
     justify-content: center;
-    align-content: center;
-    
+    align-items: center;
+
 }
 
 nav i {
