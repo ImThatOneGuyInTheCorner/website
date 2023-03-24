@@ -31,6 +31,11 @@ input {
     text-align: center;
 }
 
+.input:focus {
+    outline: none;
+}
+
+
 
 nav i {
     display: flex;
@@ -39,7 +44,7 @@ nav i {
     text-decoration: none;
     font-size: 20px;
     position: fixed;
-    color: #9990d9;
+    color: crimson;
     align-items: center;
     margin: 20px;
 }
@@ -52,7 +57,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     position: fixed;
-    color: #9990d9;
+    color: crimson;
     align-items: center;
     margin: 20px;
     left: 25px;
