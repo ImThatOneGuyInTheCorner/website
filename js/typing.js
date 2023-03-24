@@ -14,6 +14,7 @@ function writeText(){
     idx++
     if (idx > text.length){
         idx = 1
+        setTimeout(writeText, 900 / speed)
     }
     setTimeout(writeText, speed)
 }
