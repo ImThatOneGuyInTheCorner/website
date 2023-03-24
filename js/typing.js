@@ -1,6 +1,6 @@
 const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
-const text = "eeaaaaaaaaaaaaaa."
+const text = generateJoke().function
 let idx = 1
 let speed = 300 / speedEl.value
 speedEl.addEventListener('input', (element) => {
@@ -14,6 +14,7 @@ function writeText(){
     idx++
     if (idx > text.length){
         idx = 1
+        text = generateJoke()
     }
     setTimeout(writeText, speed)
 }
@@ -24,5 +25,5 @@ async function generateJoke(){
     })
 
     const data = await response.json()
-    jokeEl.innerHTML = data.joke
+    
 }
